@@ -1,11 +1,16 @@
 # PX4 command
 
 ## Introduction
-PX4 command sent via terminal and Qt (based on mavlink), providing simple API to set user-define Command to PX4 for simulation and hardware.
+PX4 command sent via terminal (based on mavros), providing simple API to set user-define Command to PX4 for simulation and hardware.
 
 ## Documents
 - [Manual](./docs/Manual.md)
 - [External Command API](./docs/External_Command_doc.md)
+
+## Dependencies
+- `PX4-Autopilot`
+- `mavros`
+- `tf2`
 
 ## Installation
 ```bash
@@ -33,8 +38,12 @@ bash $(rospack find px4_cmd)/sh/sim_fix_cam.sh  # Sim with camera (Fixwing)
 ```
 More Detailed Information is on [Wiki](https://github.com/Lovely-XPP/PX4_cmd/wiki/Simulation-Usage).
 
-
-
+## Real Experiment
+```
+rosrun px4_cmd set_mode
+rosrun px4_cmd send_cmd
+rosrun px4_cmd set_cmd
+```
 
 ## About Offboard Mode
 If you have problem for changing mode to Offboard Mode, please check the offical instruction:
