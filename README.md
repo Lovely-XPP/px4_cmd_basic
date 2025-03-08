@@ -6,11 +6,6 @@ PX4 command sent via terminal and Qt (based on mavlink), providing simple API to
 ## Documents
 - [Manual](./docs/Manual.md)
 - [External Command API](./docs/External_Command_doc.md)
-- [Qt](./docs/Qt_doc.md)
-
-## To Do
-- [ ] Complete Docs
-- [ ] Add Data Export Module
 
 ## Installation
 ```bash
