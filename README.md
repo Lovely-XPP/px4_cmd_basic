@@ -79,6 +79,21 @@ Therefore, even if we provide stable Offboard Command (publish to `/mavros/setpo
 1. If you don't want to connet a RC controller for simulation, you can delete the code shown above, but it ***ONLY FOR Simulation USE, DO NOT For Real Vehicle USE.***
 2. Downgrade PX4 Version to `V1.12.3` and below.
 
+## Citation
+If you use this software, please cite it as below.
+```bibtex
+@software{xiao_pengpeng_2025_15005321,
+  author       = {Xiao\_pengpeng},
+  title        = {Lovely-XPP/px4\_cmd\_basic: px4\_cmd V2.2.1},
+  month        = mar,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v2.2.1},
+  doi          = {10.5281/zenodo.15005321},
+  url          = {https://doi.org/10.5281/zenodo.15005321},
+}
+```
+
 ## Credits
 - [PX4-Autopilot](https://github.com/PX4/PX4-Autopilot)
 - [PX4 Guide](https://docs.px4.io/main)
