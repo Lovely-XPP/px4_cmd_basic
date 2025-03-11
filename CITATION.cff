@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Yi
+  given-names: Peng
+orcid: https://orcid.org/0009-0008-1768-613X
+title:Lovely-XPP/px4_cmd_basic: px4_cmd V2.2.1
+version: v2.2.1
+date-released: 2025-03-11
