@@ -82,8 +82,8 @@ Therefore, even if we provide stable Offboard Command (publish to `/mavros/setpo
 ## Citation
 If you use this software, please cite it as below.
 ```bibtex
-@software{xiao_pengpeng_2025_15005321,
-  author       = {Xiao\_pengpeng},
+@software{yi_2025_15005321,
+  author       = {Yi, Peng},
   title        = {Lovely-XPP/px4\_cmd\_basic: px4\_cmd V2.2.1},
   month        = mar,
   year         = 2025,
